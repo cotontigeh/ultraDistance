@@ -1,6 +1,6 @@
 # ultraDistance
-Arduino Library - distance in cm for HC-SR04.
-It's simple library who's `return distance in cm`
+Arduino Library - distance in cm for HC-SR04.  
+It's simple library who's `return distance in cm`.
 
 # Install
 
@@ -34,6 +34,8 @@ Distance in centimeter: 18
 
 Now the full code : 
 ```c++
+#include <UltraDistance.h>
+
 UltraDistance ultraDistance(3,2);
 
 void setup() {
